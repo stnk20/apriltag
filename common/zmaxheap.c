@@ -34,12 +34,10 @@ either expressed or implied, of the Regents of The University of Michigan.
 
 #include "zmaxheap.h"
 
-#ifdef _WIN32
 static inline long int random(void)
 {
         return rand();
 }
-#endif
 
 //                 0
 //         1               2
